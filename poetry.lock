@@ -180,6 +180,33 @@ python-versions = "*"
 coreapi = ">=2.2.0"
 
 [[package]]
+name = "psycopg2"
+version = "2.9.5"
+description = "psycopg2 - Python-PostgreSQL Database Adapter"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
+name = "psycopg2-binary"
+version = "2.9.5"
+description = "psycopg2 - Python-PostgreSQL Database Adapter"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
+name = "python-dotenv"
+version = "0.21.0"
+description = "Read key-value pairs from a .env file and set them as environment variables"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+cli = ["click (>=5.0)"]
+
+[[package]]
 name = "pytz"
 version = "2022.5"
 description = "World timezone definitions, modern and historical"
@@ -266,7 +293,7 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "daa9771a31ecf6ee4865cdafc22f2a88f7bc85d981bb4b37346f792fcd0dfeec"
+content-hash = "358179961038f8282c0f2fdc43b3965e4106525d8f6d30b42ebd1eecd61a585a"
 
 [metadata.files]
 asgiref = []
@@ -285,6 +312,9 @@ itypes = []
 jinja2 = []
 markupsafe = []
 openapi-codec = []
+psycopg2 = []
+psycopg2-binary = []
+python-dotenv = []
 pytz = []
 requests = []
 simplejson = []
