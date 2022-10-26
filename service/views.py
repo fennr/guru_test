@@ -22,7 +22,3 @@ class ShopListCreateAPIView(ListCreateAPIView):
     serializer_class = serializers.ShopSerializer
     filter_backends = [df.DjangoFilterBackend]
     filterset_class = filters.ShopFilter
-
-    def perform_create(self, serializer):
-        serializer.save(city_id=self.request.data['city_id'], street_id=self.request.data['street_id'])
-

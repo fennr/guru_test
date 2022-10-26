@@ -18,8 +18,6 @@ class StreetSerializer(serializers.ModelSerializer):
 
 
 class ShopSerializer(serializers.ModelSerializer):
-    # street = serializers.SlugRelatedField(read_only=True, slug_field='name')
-    # city = serializers.SlugRelatedField(read_only=True, slug_field='name')
 
     class Meta:
         model = models.Shop
