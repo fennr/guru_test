@@ -1,2 +1,4 @@
 ﻿.idea
 guru_test/__pycache__
+service/__pycache__
+*__pycache__
